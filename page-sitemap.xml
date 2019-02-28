@@ -8,21 +8,21 @@
     
     <url>
         <loc>http://yoursite-url/tags/</loc>
-        <lastmod>2019-02-28T14:08:02.843Z</lastmod>
+        <lastmod>2019-02-28T16:28:15.364Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://yoursite-url/archive/</loc>
-        <lastmod>2019-02-28T14:08:02.779Z</lastmod>
+        <lastmod>2019-02-28T16:27:47.931Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://yoursite-url/about/</loc>
-        <lastmod>2019-02-28T14:08:02.778Z</lastmod>
+        <lastmod>2019-02-28T16:27:18.308Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
