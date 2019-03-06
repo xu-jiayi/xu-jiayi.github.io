@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>http://yoursite-url/2019/03/06/VRTrain/</loc>
+        <lastmod>2019-03-06T04:36:46.842Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite-url/2019/03/05/Nightmare/</loc>
-        <lastmod>2019-03-05T14:32:20.784Z</lastmod>
+        <lastmod>2019-03-06T04:26:07.710Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,7 +24,7 @@
 
     <url>
         <loc>http://yoursite-url/2019/03/01/Research/</loc>
-        <lastmod>2019-03-02T06:08:04.802Z</lastmod>
+        <lastmod>2019-03-06T04:18:01.911Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
