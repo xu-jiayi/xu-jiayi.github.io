@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          VR Project: The Disassembly And Assembly Process Of A Train - Jiayi Xu&#39;s Blog
+          GitHub使用教程 - Jiayi Xu&#39;s Blog
         
     </title>
 
-    <link rel="canonical" href="http://yoursite-url/2019/03/06/VRTrain/">
+    <link rel="canonical" href="http://yoursite-url/2019/03/05/HowToUploadFileToGitHub/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -90,16 +90,14 @@
                     <div class="post-heading">
                         <div class="tags">
                             
-                              <a class="tag" href="/tags/#Unity" title="Unity">Unity</a>
-                            
-                              <a class="tag" href="/tags/#Virtual Reality" title="Virtual Reality">Virtual Reality</a>
+                              <a class="tag" href="/tags/#Github" title="Github">Github</a>
                             
                         </div>
-                        <h1>VR Project: The Disassembly And Assembly Process Of A Train</h1>
-                        <h2 class="subheading"></h2>
+                        <h1>GitHub使用教程</h1>
+                        <h2 class="subheading">使用Github创建库并上传本地项目</h2>
                         <span class="meta">
                             Posted by Jiayi Xu on
-                            2019-03-06
+                            2019-03-05
                         </span>
                     </div>
                 
@@ -216,21 +214,34 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <p>As train is one of the most important modern transportation, it is very important and necessary for people to understand the train’s structure, and to know how to install, disassemble and repair the train. However, in technically training and dissemination of the train maintenance, we will spend a lot of time, money, if we try to use the real train. <strong>In recent years, virtual reality technology has developed rapidly. If we apply this technology to train disassembly and assembly, we will find a new technical way for the train maintenance.</strong></p>
-<p><strong>This project is made with the Unity engine, using a HMD(Head Mounted Display) named HTC Vive.</strong> Firstly, I used 3ds Max modeling software to create the models of the train and the scene. Secondly, I imported these models into Unity to create the virtual scene. Thirdly, I finished the function I need in this system, such as walking in the virtual scene, touching every single part of the train and  viewing the introduction of every single part of the train. Taking the steam train as an example, this system has simulated the disassembly and assembly operations of the train wonderfully.</p>
-<h3 id="video">【Video】</h3>
-<hr>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/naEXErnho1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 id="development-environment">【Development Environment】</h3>
-<hr>
-<ul>
-<li>Compiler：Visual Studio 2015</li>
-<li>Languages：C#</li>
-<li>Engine：Unity3D 5.5.2f</li>
-</ul>
-<h3 id="download">【Download】</h3>
-<hr>
-<p><a href="https://github.com/xu-jiayi/VR-Train" target="_blank" rel="noopener">Application &amp; Source Code</a></p>
+                <p>这篇博文主要讲述如何使用git工具上传本地文件夹（本地项目）到Github仓库中。这里默认<strong>已经安装了git工具，创建了Github账户并绑定，以及设置了SSH Key</strong>，具体操作可以参考这篇<a href="https://www.jianshu.com/p/c70ca3a02087" target="_blank" rel="noopener">文章</a>。</p>
+<p>现在开始介绍简化版的使用git工具上传本地文件夹（本地项目）的方法:</p>
+<h1 id="创建一个github仓库">创建一个Github仓库</h1>
+<p>首先创建一个Github仓库，主要需要<strong>填入仓库名字</strong>，<strong>勾选是否公开</strong>，以及<strong>勾选Initialize this repository with a README</strong>。</p>
+<p><img src="Create.png" alt></p>
+<h1 id="下载创建的github仓库到本地">下载创建的Github仓库到本地</h1>
+<p>进入我们新创建的仓库，找到<strong>Clone or download按钮</strong>并点击，<strong>复制当前的仓库地址</strong>。在这个例子中，仓库地址为https://github.com/xu-jiayi/test.git</p>
+<p><img src="CopyAddress.png" alt></p>
+<p>本地新建一个<strong>空白文件夹</strong>，点击进入该文件夹，右键<strong>选择Git bash here</strong>，输入以下代码，将我们创建的Github仓库下载到本地。</p>
+<p><code>git clone https://github.com/xu-jiayi/test.git</code></p>
+<p>会看到以下结果:</p>
+<p><img src="Download.png" alt></p>
+<p>可以看到仓库的内容已经下载到本地了！</p>
+<p><img src="Download1.png" alt></p>
+<h1 id="上传本地项目到github仓库中">上传本地项目到Github仓库中</h1>
+<p>接下来我们就可以在<strong>下载下来的本地文件夹</strong>中添加自己的文件，项目代码了，这里测试上传一个test.txt文件。</p>
+<p>现在我们的文件中有以下文件:</p>
+<p><img src="Upload.png" alt></p>
+<p>接下来在在<strong>下载下来的本地文件夹(包含隐藏文件夹.git)<strong>中右键选择</strong>Git bash here</strong>按钮，打开控制台。</p>
+<p>执行指令：<code>git add .</code><strong>将所有文件添加到仓库</strong>。</p>
+<p>继续执行指令：<code>git commit -m &quot;提交文件&quot;</code><strong>双引号内是提交注释</strong>。</p>
+<p>最后执行指令：<code>git push -u origin master</code><strong>上传本地到Github仓库</strong>。</p>
+<p>控制台输出如下:</p>
+<p><img src="Upload1.png" alt></p>
+<h1 id="查看github仓库">查看Github仓库</h1>
+<p>最后查看一下Github仓库，我们的项目是否上传成功。</p>
+<p><img src="Check.png" alt></p>
+<p>好了，可以看到我们上传的text.txt已经成功上传到Github仓库中了！</p>
 
                 
 
@@ -239,12 +250,12 @@
                 <ul class="pager">
                     
                         <li class="previous">
-                            <a href="/2019/03/06/CommandOfHexo/" data-toggle="tooltip" data-placement="top" title="常用的Hexo命令">&larr; Previous Post</a>
+                            <a href="/2019/03/06/VRTrain/" data-toggle="tooltip" data-placement="top" title="VR Project: The Disassembly And Assembly Process Of A Train">&larr; Previous Post</a>
                         </li>
                     
                     
                         <li class="next">
-                            <a href="/2019/03/05/HowToUploadFileToGitHub/" data-toggle="tooltip" data-placement="top" title="GitHub使用教程">Next Post &rarr;</a>
+                            <a href="/2019/03/05/Nightmare/" data-toggle="tooltip" data-placement="top" title="FPS Game: Nightmare">Next Post &rarr;</a>
                         </li>
                     
                 </ul>
@@ -274,7 +285,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#video"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">【Video】</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#development-environment"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">【Development Environment】</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#download"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">【Download】</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#创建一个github仓库"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">创建一个Github仓库</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#下载创建的github仓库到本地"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">下载创建的Github仓库到本地</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#上传本地项目到github仓库中"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">上传本地项目到Github仓库中</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#查看github仓库"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">查看Github仓库</span></a></li></ol>
         
         </div>
       </aside>
@@ -294,9 +305,7 @@
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
                        
-                          <a class="tag" href="/tags/#Unity" title="Unity">Unity</a>
-                        
-                          <a class="tag" href="/tags/#Virtual Reality" title="Virtual Reality">Virtual Reality</a>
+                          <a class="tag" href="/tags/#Github" title="Github">Github</a>
                         
                     </div>
                 </section>
@@ -325,8 +334,8 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "your-disqus-ID";
-    var disqus_identifier = "http://yoursite-url/2019/03/06/VRTrain/";
-    var disqus_url = "http://yoursite-url/2019/03/06/VRTrain/";
+    var disqus_identifier = "http://yoursite-url/2019/03/05/HowToUploadFileToGitHub/";
+    var disqus_url = "http://yoursite-url/2019/03/05/HowToUploadFileToGitHub/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
