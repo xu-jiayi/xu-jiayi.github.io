@@ -16,20 +16,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite-url/tags/Virtual-Reality/</loc>
-        <lastmod>2019-03-06T05:52:47.218Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yoursite-url/tags/Unity/</loc>
-        <lastmod>2019-03-06T05:52:54.188Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite-url/tags/Hexo/</loc>
         <lastmod>2019-03-06T06:07:40.092Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -46,6 +32,41 @@
     <url>
         <loc>http://yoursite-url/tags/Github/</loc>
         <lastmod>2019-03-06T07:23:09.362Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/tags/Virtual-Reality/</loc>
+        <lastmod>2019-03-06T07:27:58.177Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/tags/Unity/</loc>
+        <lastmod>2019-03-06T07:28:01.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/tags/C-C/</loc>
+        <lastmod>2019-03-20T07:10:24.188Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/tags/Algorithm/</loc>
+        <lastmod>2019-03-20T07:10:24.188Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/tags/Math/</loc>
+        <lastmod>2019-03-20T07:10:24.188Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -14,13 +14,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite-url/categories/Project/</loc>
-        <lastmod>2019-03-06T05:52:54.188Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite-url/categories/Hexo/</loc>
         <lastmod>2019-03-06T06:07:40.092Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -37,6 +30,34 @@
     <url>
         <loc>http://yoursite-url/categories/Github/</loc>
         <lastmod>2019-03-06T07:23:09.362Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/categories/Project/</loc>
+        <lastmod>2019-03-06T07:28:01.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/categories/C-C/</loc>
+        <lastmod>2019-03-20T07:10:24.188Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/categories/C-C/Algorithm/</loc>
+        <lastmod>2019-03-20T07:10:24.188Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/categories/C-C/Algorithm/Math/</loc>
+        <lastmod>2019-03-20T07:10:24.188Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
