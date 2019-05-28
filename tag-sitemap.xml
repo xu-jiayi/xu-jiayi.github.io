@@ -65,8 +65,22 @@
     </url>
 
     <url>
+        <loc>http://yoursite-url/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+        <lastmod>2019-05-28T10:01:26.988Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite-url/tags/%E7%AE%97%E6%B3%95/</loc>
+        <lastmod>2019-05-28T10:01:26.988Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yoursite-url/tags/C-C/</loc>
-        <lastmod>2019-05-27T05:30:36.006Z</lastmod>
+        <lastmod>2019-05-28T10:01:43.290Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
